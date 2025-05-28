@@ -8,7 +8,7 @@ But there's more. By installing and enabling *ANF* using *The Guardian*, network
 
 To define which domains and IP addresses should be blocked, *ANF* uses a simple text file with a (big and daily mantained) list of domains to block.
 
-*The Guardian* extension has the ability to control *ANF* by sending it one of the commands predefined during the design phase.
+*The Guardian* extension has the ability to control *ANF* by sending it one of the commands defined during the design phase.
 Currently, *The Guardian* offers the ability to enable, disable, and request the status of *ANF* using a section of its *Popup*. In future versions of *The Guardian*, other commands will be added, such as the ability to add/remove personal domains in the *ANF*  blacklist.
 
 *The Guardian* uses the **NativeMessaging** API to interface with *ANF*, interfacing with a custom **NativeMessagingHost** created ad hoc. The NativeMessagingHost sends commands to and receives responses from *ANF*.
@@ -25,6 +25,6 @@ Currently, *ANF* can only be manipulated using *The Guardian*. The next version,
 
 #### How to Install
 
-Until publication in the various Stores, *The Guardian* can be actually installed in Chrome or Edge with **Developers Mode enabled**. Once installed it is fully functional as a Content Blocker only.
+Until publication in the various Stores, *The Guardian* can be actually installed in Chrome or Edge with **Developers Mode enabled**. Once installed it is fully functional as a Content Blocker only. Note that *The Guardian* has a static key defined in its manifest, needed for the *NativeMessagingHost* manifest settings.
 
-The *Advanced Network Filtering (ANF)* can be installed by using the latest Setup released in this repository. Once installed, it can be enabled/disabled by using *The Guardian* popup. 
+Until further notice, *Advanced Network Filtering (ANF)* can be installed by using the latest Setup released in this repository. Once installed, it can be enabled/disabled by using *The Guardian* popup. 
