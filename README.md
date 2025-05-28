@@ -13,6 +13,8 @@ Currently, The Guardian offers the ability to enable, disable, and request the s
 
 The Guardian uses the **NativeMessaging** API to interface with ANF, interfacing with a custom **NativeMessagingHost** created ad hoc. The NativeMessagingHost sends commands and receives responses from ANF.
 
-ANF is structurally composed of two Windows services, one interfacing with The Guardian (or rather, with its NativeMessagingHost), the other acting as a filter on the network.
+ANF is structurally composed of two Windows services, **GuardianMITM**, which interfaces with The Guardian (or rather, with its NativeMessagingHost), and **DNSCrypt-Proxy**, which acts as a filter on the network. 
+
+**GuardianMITM**, the *Man-In-The-Middle*, is capable of distributing requests and responses to and from The Guardian and DNSCrypt, as well as managing the configuration and restoration of network interfaces when DNSCrypt is enabled or disabled in a completely transparent way. This means that **the user does not have to manually configure** any interface to work with a protected network nor manually restore interfaces to their original settings when DNSCrypt is disabled.
 
 Currently, ANF can only be manipulated using The Guardian. The next version, while remaining fully compatible with The Guardian, will also have a graphical interface, where the user will be able to perform various operations, such as defining which physical interface to apply ANF to (all active ones, only WiFi, only an Ethernet card, etc.), manipulating the blacklist in a real editor, etc., transforming ANF into a standalone too product.
