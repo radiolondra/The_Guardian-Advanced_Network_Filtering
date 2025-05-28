@@ -1,6 +1,6 @@
 # The Guardian & Advanced Network Filtering (ANF)
 
-**The Guardian** is a new, advanced Content Blocker for Chrome and Edge browsers. Future versions will be available for Firefox and Safari too.
+**The Guardian** is a new, advanced Content Blocker for Chrome and Edge browsers. Versions for Firefox and Safari will also be available in the near future.
 
 *The Guardian* can work standalone, with the features of a very powerful Content Blocker, or, by installing **Advanced Network Filtering** (**ANF**), with the ability to drive  network traffic filtering and control exactly which domains and IP addresses are to be blocked.
 
