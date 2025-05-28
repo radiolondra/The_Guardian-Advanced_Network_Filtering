@@ -11,15 +11,19 @@ To define which domains and IP addresses should be blocked, *ANF* uses a simple 
 *The Guardian* extension has the ability to control *ANF* by sending it one of the commands defined during the design phase.
 Currently, *The Guardian* offers the ability to enable, disable, and request the status of *ANF* using a section of its *Popup*. In future versions of *The Guardian*, other commands will be added, such as the ability to add/remove personal domains in the *ANF*  blacklist.
 
-*The Guardian* uses the **NativeMessaging** API to interface with *ANF*, interfacing with a custom **NativeMessagingHost** created ad hoc. The NativeMessagingHost sends commands to and receives responses from *ANF*.
+*The Guardian* uses the **NativeMessaging** API to interface with *ANF*, interfacing with a custom **NativeMessagingHost** created ad hoc. The *NativeMessagingHost* sends commands to and receives responses from *ANF*.
 
 #### ANF Structure
 
-*ANF* is structurally composed of two Windows services, **GuardianMITM**, which interfaces with *The Guardian* (or rather, with its *NativeMessagingHost*), and **[DNSCrypt-Proxy](https://github.com/DNSCrypt/dnscrypt-proxy)** , which acts as a filter over the network and increases security. For more details on all the features of *DNSCrypt*, please refer to its excellent documentation.
+*ANF* is structurally composed of two Windows Services:
+
+- **GuardianMITM**, which interfaces with *The Guardian* (or rather, with its *NativeMessagingHost*), 
+
+- and **[DNSCrypt-Proxy](https://github.com/DNSCrypt/dnscrypt-proxy)** , which acts as a filter over the network and increases security. For more details on all the features of *DNSCrypt*, please refer to its excellent documentation.
 
 *GuardianMITM*, the *Man-In-The-Middle*, is capable of distributing requests and responses between *The Guardian* and *DNSCrypt*, as well as managing the configuration and restoration of network interfaces when *DNSCrypt* is enabled or disabled in a completely transparent way. 
 
-###### Start and Stop ANF
+#### Start and Stop ANF
 
 Currently, *ANF* can only be manipulated using *The Guardian*. The next version, while remaining fully compatible with *The Guardian*, will also have a graphical user interface, where the user will be able to perform various operations, such as defining which physical interface to apply *ANF* to (all active ones, only WiFi, only an Ethernet card, etc.), manipulating the blacklist in a real editor, etc., transforming *ANF* into a standalone too product.
 
