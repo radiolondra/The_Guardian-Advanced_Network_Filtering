@@ -38,6 +38,6 @@ Currently, *ANF* can only be manipulated using *The Guardian*. The next version,
 
 #### How to Install
 
-Until publication in the various Stores, *The Guardian* can be actually installed in Chrome or Edge with **Developers Mode enabled**. Once installed it is fully functional as a Content Blocker only. Note that *The Guardian* has a static key defined in its manifest, needed for the *NativeMessagingHost* manifest settings.
+Until publication in the various Stores, *The Guardian* can be actually installed in Chrome or Edge as an **Unpacked extension**, with **Developers Mode enabled**. Once installed it is fully functional as a Content Blocker only. Note that *The Guardian* has a static key defined in its manifest, needed for the *NativeMessagingHost* manifest settings.
 
 Until further notice, *Advanced Network Filtering (ANF)* can be installed by using the latest Setup released in this repository. Once installed, it can be enabled/disabled by using *The Guardian* popup. 
