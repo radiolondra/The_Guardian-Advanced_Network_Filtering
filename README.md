@@ -8,7 +8,7 @@
 
 <p align="center"><img title="" src="./images/guardian02.png" alt="" width="80%"></p>
 
-*ANF* can block well known dangerous or unwanted domains (malware, phishing, annoying ads, intrusive trackers, fraud, adult, etc.) **at DNS level**, resulting in a faster and safer network surfing.
+*ANF* can block well known dangerous or unwanted domains (malware, phishing, annoying ads, intrusive trackers, fraud, adult, etc.) **at DNS level**. All requests and responses are encrypted, dramatically increasing security in network surfing.
 
 **But there's more**. By installing and enabling *ANF* using *The Guardian*, network filtering will be global to the device where *ANF* is installed and therefore extended to all installed applications, not just browsers.
 
