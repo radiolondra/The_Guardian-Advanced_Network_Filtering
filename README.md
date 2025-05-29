@@ -6,11 +6,11 @@
 
 *The Guardian* can work standalone, with the features of a very powerful Content Blocker, or, by installing **Advanced Network Filtering** (**ANF**), with the ability to drive  network traffic filtering and control exactly which domains and IP addresses are to be blocked. 
 
-*ANF* can block well known dangerous or unwanted domains  (malware, phishing, annoying ads, intrusive trackers, fraud, adult, etc.)  **at DNS level**, that is, before they "come-in" the user's network, resulting in a faster and safer network access and surfing.
-
 <p align="center"><img title="" src="./images/guardian02.png" alt="" width="80%"></p>
 
-But there's more. By installing and enabling *ANF* using *The Guardian*, network filtering will be global to the device where *ANF* is installed and therefore extended to all installed applications, not just browsers.
+*ANF* can block well known dangerous or unwanted domains (malware, phishing, annoying ads, intrusive trackers, fraud, adult, etc.) **at DNS level**, that is, before they "come-in" the user's network, resulting in a faster and safer network access and surfing.
+
+**But there's more**. By installing and enabling *ANF* using *The Guardian*, network filtering will be global to the device where *ANF* is installed and therefore extended to all installed applications, not just browsers.
 
 To define which domains and IP addresses should be blocked, *ANF* uses a simple text file with a (big and daily mantained) list of domains to block.
 
