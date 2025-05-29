@@ -2,21 +2,13 @@
 
 **The Guardian** is a new, advanced Content Blocker extension for Chrome and Edge browsers. Versions for Firefox and Safari will also be available in the near future.
 
-
-
-<img src="./images/guardian00.png" width="40%"/>
-
-
+<img title="" src="./images/guardian00.png" alt="" width="80%" data-align="center">
 
 *The Guardian* can work standalone, with the features of a very powerful Content Blocker, or, by installing **Advanced Network Filtering** (**ANF**), with the ability to drive  network traffic filtering and control exactly which domains and IP addresses are to be blocked. 
 
 *ANF* can block well known dangerous or unwanted domains  (malware, phishing, annoying ads, intrusive trackers, fraud, adult, etc.)  **at DNS level**, that is, before they "come-in" the user's network, resulting in a faster and safer network access and surfing.
 
-
-
-<img src="./images/guardian02.png" width="40%"/>
-
-
+<img title="" src="./images/guardian02.png" alt="" width="80%" data-align="center">
 
 But there's more. By installing and enabling *ANF* using *The Guardian*, network filtering will be global to the device where *ANF* is installed and therefore extended to all installed applications, not just browsers.
 
@@ -26,11 +18,7 @@ To define which domains and IP addresses should be blocked, *ANF* uses a simple 
 
 Currently, *The Guardian* offers the ability to enable, disable, and request the status of *ANF* using a section of its *Popup*. In future versions of *The Guardian*, other commands will be added, such as the ability to add/remove personal domains in the *ANF*  blacklist.
 
-
-
-<img src="./images/guardian01.png" width="40%"/>
-
-
+<img title="" src="./images/guardian01.png" alt="" width="80%" data-align="center">
 
 *The Guardian* uses the **NativeMessaging** API to interface with *ANF*, interfacing with a custom **NativeMessagingHost** created ad hoc. The *NativeMessagingHost* sends commands to and receives responses from *ANF*.
 
