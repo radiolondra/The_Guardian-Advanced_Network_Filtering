@@ -26,9 +26,9 @@ Currently, *The Guardian* offers the ability to enable, disable, and request the
 
 *ANF* is structurally composed of two Windows Services:
 
-- **GuardianMITM**, which interfaces with *The Guardian* (or rather, with its *NativeMessagingHost*), 
+- **GuardianMITM**, which interfaces with *The Guardian* (or rather, with its *NativeMessagingHost*), and with
 
-- and **[DNSCrypt-Proxy](https://github.com/DNSCrypt/dnscrypt-proxy)** , which acts as a filter over the network and increases security. For more details on all the features of *DNSCrypt*, please refer to its excellent documentation.
+- **[DNSCrypt-Proxy](https://github.com/DNSCrypt/dnscrypt-proxy)** , which acts as a filter over the network and increases security. For more details on all the features of *DNSCrypt*, please refer to its excellent documentation.
 
 *GuardianMITM*, the *Man-In-The-Middle*, is capable of distributing requests and responses between *The Guardian* and *DNSCrypt*, as well as managing the configuration and restoration of network interfaces when *DNSCrypt* is enabled or disabled in a completely transparent way. 
 
