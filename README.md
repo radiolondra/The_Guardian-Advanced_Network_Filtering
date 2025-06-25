@@ -22,6 +22,8 @@ Currently, *The Guardian* offers the ability to enable, disable, and request the
 
 *The Guardian* uses the **NativeMessaging** API to interface with *ANF*, interfacing with a custom **NativeMessagingHost** created ad hoc. The *NativeMessagingHost* sends commands to and receives responses from *ANF*.
 
+<p align="center"><img title="" src="./images/GuardianANF.png" alt="" width="80%"></p>
+
 #### ANF Structure
 
 *ANF* is structurally composed of two Windows Services:
